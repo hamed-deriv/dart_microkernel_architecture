@@ -1,5 +1,5 @@
 import 'package:dart_microkernel_architecture/microkernel_architecture.dart';
 
-abstract class BaseService<T> {
-  Future<void> handle(BaseMessage<T> message);
+abstract class BaseService {
+  Future<void> handle<T>(BaseMessage<T> message);
 }
