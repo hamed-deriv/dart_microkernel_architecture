@@ -4,7 +4,7 @@ import 'counter/counter_service.dart';
 import 'counter/messages.dart';
 
 void main(List<String> arguments) {
-  final MicroKernel microKernel = MicroKernel();
+  final Microkernel microKernel = Microkernel();
   final BaseService counterService = CounterService();
 
   microKernel.register<int>(counterService);

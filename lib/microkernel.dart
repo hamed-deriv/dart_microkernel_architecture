@@ -1,6 +1,6 @@
 import 'package:dart_microkernel_architecture/microkernel_architecture.dart';
 
-class MicroKernel implements BaseMicrokernel {
+class Microkernel implements BaseMicrokernel {
   final Map<Type, BaseService> _services = <Type, BaseService>{};
 
   @override
